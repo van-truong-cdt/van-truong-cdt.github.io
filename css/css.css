@@ -1,0 +1,58 @@
+
+h1{
+	color: black;
+}
+h2{
+	color: red;
+}
+
+*{
+	background-color: white;
+}
+
+#name_menu{
+background-color: #8297b3;
+text-align: center;
+padding: 30px;
+margin: 0;
+}
+
+nav {
+	background-color: #31363d; 		/* mau nen */
+	overflow: hidden;					/*vien ngoai cung*/	
+	text-align: center;	
+}
+
+nav a {
+	color: white;				/*change font color*/
+	padding: 14px 20px;
+	background-color: #31363d;
+	text-decoration: none ;
+	display: block;
+	float: left;
+			/* decoration: trang tri*/
+}
+
+nav a:hover{
+	background-color: #989ea6;
+	color: black;
+
+}
+.menu_left{
+	float: center;
+}
+.menu_right{
+	float: right;
+}
+
+#left_side{
+	flex: 30%;
+}
+#right_side{
+	flex: 70%;
+}
+
+}
+#container{
+	display: flex;
+}

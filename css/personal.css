@@ -1,0 +1,107 @@
+#menu{
+	overflow: hidden;
+	background: #49524f;
+}
+
+#menu > a{
+	background-color: #49524f;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 15px;
+}
+
+.menu_left{
+	float: left;
+}
+
+.menu_right{
+	float: right;
+}
+
+#menu a:hover{
+	background: #c5d4d3;
+	color: black;
+}
+
+#name{
+	text-align: center;
+	background-color: #3ce6da;
+	margin: 0;
+	font-size: 50px;
+}
+
+#container{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#left_side{
+	flex: 30%;
+	padding: 10px;
+	background-color: #f1f1f1;
+}
+
+#right_side{
+	flex: 70%;
+	padding:10px;
+	background-color: #f1f1f1;
+
+}
+
+#container_course{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container_item{
+	width: 33%;
+	text-align: center;
+}
+
+@media(max-width: 800px){
+	*{
+		background-color: #f1f1f1;
+	}
+	#container{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#right_side{
+		flex: 100%;
+	}
+	#left_side{
+		flex: 100%;
+	}
+	.container_item{
+		width: 50%;
+		text-align: center;
+	}
+}
+
+.title{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 10px 15px 10px 15px;
+	margin: 0px;
+}
+.discription{
+	margin: 10px 15px 10px 15px;
+}
+
+#table{
+	width: 40%;
+	border-collapse: collapse;
+
+}
+
+#table td, th{
+	text-align: center;
+	border:  1px solid black;
+	padding: 0px;
+	margin: 0px;
+}
+
+
